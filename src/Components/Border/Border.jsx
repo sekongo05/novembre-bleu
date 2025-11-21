@@ -27,14 +27,15 @@ let Border = ()=>{
 
 
     return <>
-                <div  className=" w-full h-screen  border-white flex justify-center flex-col items-center">
-                   <div className=" border-white w-full h-screen bg-[url(/Images/p3.jpg)] bg-cover bg-top flex  flex-col sm:justify-center justify-center gap-y-40 sm:gap-0 items-center overflow-hidden">
-                        <div  className=" border-red-200 flex justify-center items-center  text-2xl sm:text-6xl font-extrabold w-full h-[100px] sm:h-[300px] "> 
-                            <p id='texte' className='   text-center  text-white rounded-2xl p-6 '>En bleu, unis contre le cancer de la prostate </p>
+                <div  className="border w-full h-screen  border-white flex justify-center flex-col items-center">
+                   <div className=" border-white w-full h-screen bg-[url(/Images/p3.jpg)] bg-cover  flex bg-center flex-col  gap-y-40 sm:gap-0 items-center overflow-scroll">
+                        <div  className=" border-red-200  flex justify-center items-center mb-[-50px] sm:mb-[100px] text-2xl sm:text-6xl font-extrabold w-full h-[200px] sm:h-[300px] "> 
+                            <p id='texte' className='border text-center  text-white rounded-2xl p-6 '>LE SAVIEZ-VOUS ?</p>
                         </div>
-                        <div  id='police' className="  border-white w-[95%] h-[500px] p-4 mt-[-90px] flex justify-center sm:mt-3 items-center flex-col font-bold text-white text-2xl sm:gap-0 gap-15  sm:text-[50px]">
-                            <p className="flex  justify-center text-center items-center">Le cancer de la prostate est l'un des cancers les plus fréquents chez I'homme. Mais bonne nouvelle: dépisté tôt, il se soigne très bien.</p>
-                            <p className="flex justify-center mt-5 text-center items-center ">{displayedText}</p>
+                        <div  id='police' className="  border-white w-[95%] h-min p-4 flex justify-center  items-center flex-col font-bold text-white text-2xl sm:gap-0 gap-15  sm:text-[50px]">
+                            <p className="flex  justify-center text-center items-center">En Côte d'Ivoire, le cancer de la prostate représente le cancer le plus fréquent chez les hommes. Le pays dispose heureusement d'une technologie de radiothérapie de pointe pour son traitement. Des campagnes de dépistage à coût réduit sont régulièrement organisées dans le cadre de l'initiative "Novembre Bleu", notamment au CHU de Cocody (3 000 FCFA) et au CHU de Treichville (5 000 FCFA), particulièrement recommandées aux hommes dès 35 ans. Les hommes de plus de 50 ans présentent un risque accru, et les données ethniques confirment une prévalence plus élevée chez les hommes noirs ou d'ascendance africaine (1 homme noir sur 6 face à 1 homme blanc sur 8).</p>
+{/*                             <p className="flex justify-center mt-5 text-center items-center ">{displayedText}</p> */}
+                            <p className='h-[100px]'></p>
                         </div>
                     </div>
                     
